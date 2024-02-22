@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.box {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 300vh;
+        background-color: rgb(225, 0, 255);
+    }
+
+    .box {
+        background-color: rgb(189, 170, 0);
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 910px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 150vh;
+        background-color: rgb(238, 255, 0);
+    }
+
+    .box {
+        background-color: rgb(17, 0, 255);
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 150vh;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .box {
+        background-color: rgb(0, 0, 0);
+        width: 290px;
+        height: 290px;
+    }
+
+
+
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 150vh;
+        background-color: rgb(238, 255, 0);
+    }
+
+    .box {
+        background-color: rgb(17, 0, 255);
+        width: 290px;
+        height: 290px;
+    }
+
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+
+}
